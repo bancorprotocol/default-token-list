@@ -1,1 +1,3 @@
-# default-token-list
+# Default Token List
+
+The Default Token List for Bancor Network
