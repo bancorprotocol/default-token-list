@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to S3 bucket
-        run: aws s3 sync . --exclude "*" --include "*.svg" --include ".json" s3://bancor-tokens-list/ethereum --delete
+        run: aws s3 sync . --exclude "*" --include "*.svg" --include "*.json" s3://bancor-tokens-list/ethereum --delete
